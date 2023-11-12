@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Credit Score Estimator</title>
+</head>
+<body>
+    <h1>Credit Score Estimator</h1>
+    
+    <form id="creditScoreForm">
+        <label for="income">Monthly Income:</label>
+        <input type="number" id="income" required>
+        
+        <label for="expenses">Monthly Expenses:</label>
+        <input type="number" id="expenses" required>
+        
+        <button type="button" onclick="calculateCreditScore()">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
